@@ -1,0 +1,18 @@
+prepare:
+  steps:
+    - name: set up
+      command: mkdir ~/.npm-global
+    - name: set up
+      command: npm config set prefix '~/.npm-global'
+    - name: set up
+      command: export PATH=~/.npm-global/bin:$PATH
+    - name: install n8n
+      command: npm install n8n -g
+    - name: change port to 3000
+      command: export N8N_PORT=3000
+test:
+  steps: []
+run:
+  steps:
+    - name: deploy
+      command: n8n start
