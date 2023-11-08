@@ -7,4 +7,4 @@ test:
 run:
   steps:
     - name: deploy
-      command: ./node_modules/n8n/bin/n8n start
+      command: N8N_PORT=3000 ./node_modules/n8n/bin/n8n start
