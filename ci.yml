@@ -7,7 +7,7 @@ prepare:
     - name: set up
       command: export PATH=~/.npm-global/bin:$PATH
     - name: install n8n
-      command: npm install n8n -g
+      command: npm install n8n
     - name: change port to 3000
       command: export N8N_PORT=3000
 test:
