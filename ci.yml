@@ -1,5 +1,7 @@
 prepare:
   steps:
+    - name: install dependency
+      command: npm install cache-manager@5.2.4 --save
     - name: install n8n
       command: npm install n8n
 test:
