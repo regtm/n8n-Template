@@ -47,20 +47,15 @@
     {
       "parameters": {
         "operation": "create",
-        "databaseId": 81319,
-        "tableId": 221278,
         "fieldsUi": {
           "fieldValues": [
             {
-              "fieldId": 1540008,
               "fieldValue": "={{ $json.title }}"
             },
             {
-              "fieldId": 1540009,
               "fieldValue": "={{ $json.link }}"
             },
             {
-              "fieldId": 1540010,
               "fieldValue": "={{ $json.pubDate }}"
             }
           ]
@@ -76,7 +71,7 @@
       ],
       "credentials": {
         "baserowApi": {
-          "id": "RVsnvKwc8fSwy1Pe",
+          "id": "41BQy3svoS5bu3t2",
           "name": "Baserow account"
         }
       }
@@ -90,9 +85,7 @@
           "cachedResultName": "Privates 🏡"
         },
         "content": "={{ $json.link }}",
-        "options": {
-          "section": "139996420"
-        }
+        "options": {}
       },
       "id": "0db1ac47-f65f-4e2d-8e25-46581614ffea",
       "name": "Todoist1",
@@ -104,14 +97,13 @@
       ],
       "credentials": {
         "todoistApi": {
-          "id": "yDKTroWejxFGEWFE",
+          "id": "RsflYODmQ0IHefl0",
           "name": "Todoist account"
         }
       }
     },
     {
       "parameters": {
-        "webhookUri": "https://discordapp.com/api/webhooks/1175858599747125319/GrVe8xWfiqIc5vDVCglVATX7jlXDUeFKiqWz8ayCaySQV2c1e00UxumHxsoeDzCiMhAv",
         "text": "=------------------------------------------------------------\n# {{ $json.title }}\n{{ $json.pubDate }}\n\n**Link:** {{ $json.link }}",
         "options": {}
       },
