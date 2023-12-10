@@ -1,5 +1,9 @@
 prepare:
   steps:
+    - name: update node
+      command: sudo npm install -g n && sudo n 18
+    - name: update npm
+      command: sudo npm i -g npm@10.2.5
     - name: install dependency
       command: npm install cache-manager@5.2.4 --save
     - name: install n8n
